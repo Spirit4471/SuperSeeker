@@ -1,0 +1,16 @@
+{
+  "name": "hide-and-seek-3d",
+  "version": "1.0.0",
+  "description": "纸箱大逃亡 — 3D 捉迷藏 demo (Three.js + WebGL, 零构建)",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "test": "node test/e2e.mjs"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "three": "^0.185.1"
+  },
+  "devDependencies": {
+    "puppeteer-core": "^25.3.0"
+  }
+}
